@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+
+body {
+    width:90rem;
+    height: 53.563;
+    background-color: #ffffff;
+    border: rgb(170, 168, 170) 1px solid;
+    align-self: center;
+  }
+
+    header {
+        height: 9.5rem;
+        width: 90rem;
+        padding-top: 3rem;
+        background-color: rgba(244, 244, 244,.5);
+        }
+
+        img.Powered-by {
+            width: 17.188rem;
+            height: 2.375rem;
+            margin: 0 47.688rem 2.563rem 10.438rem;
+            object-fit: contain;
+        }
+
+        img.Blue-Current-logo---Blue-v2 {
+            width: 4.375rem;
+            height: 2.8rem;
+            margin: 0 10.313rem 2.313rem 0;
+            object-fit: contain;
+        }
+        
+        .Space {
+            width: 90rem;
+            height: 1.563rem;
+            margin: 2.65rem 0 0;
+            background-color: rgba(255, 255, 255,.5);
+        }
+
+        .Slide {
+            position:absolute;
+            top: 13.8rem;
+            left: 12.813rem;
+            right: 59.313rem;
+            bottom: 40.75rem;
+            width: 17.875rem;
+            height: 1rem;
+            border-radius: 9.5px;
+            background-color:#ffffff;
+        }
+
+        .Slide2 {
+            position: absolute;
+            top: 13.8rem;
+            left: 12.813rem;
+            right: 71.625rem;
+            bottom: 40.75rem;
+            width: 5.563rem;
+            height: 1rem;
+            border-radius: 9.5px;
+            background-color:#3399ff;
+            z-index: 2;
+          }
+
+        .SlideBol {
+            position: absolute; 
+            top: 13rem;
+            left: 16.688rem;
+            right: 60.5rem;
+            bottom: 30.438rem;
+            width: 2.5rem;
+            height: 2.5rem;
+            background-color:#3399ff;
+            border-radius:90%;
+            z-index:2;
+        }
+
+        .Nummers {
+            width: 1.25rem;
+            height: 0.938rem;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.780rem;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+            margin: 0.813rem 0.625rem 0.75rem;
+        }
+
+        .Background-blue {
+            width: 69.375rem;
+            height: 31.688rem;
+            margin: 1.25rem 10.313rem 9.563rem 10.313rem;
+            border-radius: 10px;
+            background-color:#e5f2ff;
+            }
+
+/*Ik heb van dit onderdeel een img gemaakt ipv losse paragrafen, omdat ik niet beschik over het letertype MuseoSans. Zo is het visueel gelijk aan de case.*/
+            .tekst {
+                    width: 275px;
+                    height: 140px;
+                    object-fit: contain;
+                    margin: 4rem 8rem 17.813rem 2rem;
+                }
+            
+                .Hidden {
+                    width: 289px;
+                    height: 395px;
+                    padding: 3.5rem 1rem 5.5rem 0;
+                    object-fit: contain;
+                }
+
+                .Umove {
+                    width: 265px;
+                    height: 363px;
+                    margin: 3.5rem 3.938rem 7rem 0;
+                }
+
+                .Verloop1, .Verloop2 {
+                    height: 9.938rem;
+                    border-radius: 8px;
+                    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 18%, #fff 71%);
+                    z-index: 3;
+                }
+
+                .Verloop1 {
+                    width: 15.938rem;
+                    position: absolute;
+                    top: 31.1rem;
+                    left: 39.4rem;
+                }
+
+                .Verloop2 {
+                    width: 16.5rem;
+                    position: absolute;
+                    top: 31.1rem;
+                    left: 57.6rem;
+                }
+
+                    .Knop, .Knop2 {
+                        width: 2rem;
+                        height: 2rem;
+                        border-radius:90%;
+                        padding: 0.438rem;
+                        background-color: #eef7ff;
+                        position: relative;
+                        top:5.938rem;
+                        left: 1.5rem;
+                    }
+                    
+                    .Knop2 {
+                        opacity:.6;
+                        border: solid 1px #eef7ff;
+                        background-color: #ffffff;
+                    }
+
+                        input {
+                            position: absolute;
+                            opacity: 0;
+                            height: 0;
+                            width: 0;
+                          }
+                          
+                          .checkmark {
+                            position:relative;
+                            top: .3rem;
+                            left: .6rem;
+                           }
+                          
+                          .checkmark:after {
+                            content: "";
+                            position: absolute;
+                            display: none;
+                          }
+
+                          input:checked ~ .checkmark:after {
+                            display: block;
+                          }
+
+                          .checkmark:after {
+                            width: 8px;
+                            height: 15px;
+                            border: solid #3399ff;
+                            border-width: 0 2px 2px 0;
+                            transform: rotate(45deg);
+                          }
+                        
+                          .Kruisje {
+                            width: 0.688rem;
+                            height: 1rem;
+                            opacity: 0.06;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 1rem;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: 0.27px;
+                            text-align: center;
+                            color: #3399ff;
+                            margin: .5rem .6rem;
+                           }
+                          
+
+            .Button1, .Button2 {
+                height: 2.75rem;
+                border-radius: 8px;
+            }
+
+            .Button1 {
+                position:absolute;
+                top: 44.5rem;
+                left: 13rem;
+                right: 69.563rem;
+                bottom: 8.313rem;
+                width: 7.625rem;
+                background-color: #fff;
+                color: #3399ff;
+                border: solid 1px #3399ff;
+            }
+
+                    .Pijl1, .Pijl2 {
+                        width: 0.813rem;
+                        height: 0.875rem;
+                        font-family:'Montserrat', sans-serif;
+                        font-size: 1rem;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #0074e8;
+                    }
+
+                    .Pijl1 {
+                        margin: .875rem;
+                    }
+
+                    .Vorige, .Volgende {
+                        height: 1.75rem;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.56;
+                        letter-spacing: normal;
+                    }
+
+                    .Vorige {
+                        margin: -2rem 0 2rem 3.3rem;
+                        color: #3399ff;
+                    }
+
+            .Button2 {
+                position:absolute;
+                top: 44.5rem;
+                left: 59.438rem;
+                right: 16.25rem;
+                bottom: 8,313rem;
+                width: 14.313rem;
+                background-color: #3399ff;
+                color: #fff;
+                border: none;
+            }
+
+                    .Pijl2 {
+                       margin: -3.5rem 3.5rem .875rem 12.5rem;
+                    }
+
+                    .Volgende {
+                        width: 5.063rem;
+                        margin: .7rem 0 2rem 1rem;
+                    }
+                    
+        .Jouw-keuze-1519 {
+            position:absolute;
+            top: 46.938rem;
+            left: 59.7rem;
+            right: 22.375rem;
+            width: 8.188rem;
+            height: 1.125rem;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #3399ff;
+            }
+
+            
+            .Hidden-txt, .Move-txt {
+                height: 2.75rem;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1rem;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #093550;}
+
+            .Hidden-txt {
+                width: 9.938rem;
+                margin: 3.688rem 5.1rem;
+            }
+
+            .Move-txt {
+                width: 9.875rem;
+                opacity: 0.32;
+                margin: 3.688rem 5.5rem;
+            }
+            

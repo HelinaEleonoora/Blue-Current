@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+    
+body {
+    width: 90rem;
+    height: 76.563rem;
+    background-color: #ffffff;
+    border: rgb(170, 168, 170) 1px solid;
+    align-self: center;
+  }
+
+  header {
+    height: 9.5rem;
+    width: 90rem;
+    padding-top: 3rem;
+    background-color: rgba(244, 244, 244,.5);
+    }
+
+        img.Powered-by {
+            width: 17.188rem;
+            height: 2.375rem;
+            margin: 0 47.688rem 2.563rem 10.438rem;
+            object-fit: contain;
+        }
+
+        img.Blue-Current-logo---Blue-v2 {
+            width: 4.375rem;
+            height: 2.8rem;
+            margin: 0 10.313rem 2.313rem 0;
+            object-fit: contain;
+        }
+        
+    .Space {
+        width: 90rem;
+        height: 1.563rem;
+        margin: 2.65rem 0 0;
+        background-color: rgba(255, 255, 255,.5);
+    }
+
+    .Slide {
+        position:absolute;
+        top: 13.8rem;
+        left: 12.813rem;
+        right: 59.313rem;
+        bottom: 40.75rem;
+        width: 17.875rem;
+        height: 1rem;
+        border-radius: 9.5px;
+        background-color:#ffffff;
+    }
+
+    .Slide2 {
+        position: absolute;
+        top: 13.8rem;
+        left: 12.813rem;
+        right: 71.625rem;
+        bottom: 40.75rem;
+        width: 5.563rem;
+        height: 1rem;
+        border-radius: 9.5px;
+        background-color:#3399ff;
+        z-index: 2;
+      }
+
+    .SlideBol {
+        position: absolute; 
+        top: 13rem;
+        left: 16.688rem;
+        right: 60.5rem;
+        bottom: 30.438rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        background-color:#3399ff;
+        border-radius:90%;
+        z-index:2;
+    }
+
+        .Nummers {
+            width: 1.25rem;
+            height: 0.938rem;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.780rem;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+            margin: 0.813rem 0.625rem 0.75rem;
+        }
+            
+
+    .Background-blue {
+        width: 69.375rem;
+        height: 53.5rem;
+        margin: 1.25rem 10.313rem 1.375rem;
+        border-radius: 10px;
+        background-color: #e5f2ff; 
+    }
+
+/*Ik heb van dit onderdeel een img gemaakt ipv losse paragrafen, omdat ik niet beschik over het letertype MuseoSans. Zo is het visueel gelijk aan de case.*/
+       .tekst   {
+        width: 22.820rem;
+        height: 10.30rem;
+        margin: 7.25rem 0 0 2.4rem;
+       }
+
+        .paal-eind {
+            height:26rem;
+            margin: 7rem 50rem 0 1rem;
+        }
+          
+        .Lijst {
+            margin: -24rem 0rem 0 16rem;
+            width: 14rem;
+        }
+
+                .p1, .p2, .p3, .p4, .p5, .p6, .Jouw-keuze, .Prijs {
+                    height: 1.5rem;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 1rem;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.5;
+                    letter-spacing: normal;
+                    color: #617d8a;
+                }
+                
+                .p1, .p2, .p3, .p4, .p5, .p6 {
+                    margin: 0rem 0 0.35rem 1.8rem;
+                }
+
+                .Jouw-keuze {
+                    height: 1.188rem;
+                    margin: 2.062rem 0.813rem 0.25rem 0;
+                    line-height: normal;
+                    color: #3399ff;
+                }
+
+                .Prijs {
+                    height: 2.375rem;
+                    margin: 0.25rem 0 0;
+                    font-size: 2rem;
+                    font-weight: bold;
+                    line-height: normal;
+                    color: #3399ff;
+                    letter-spacing: normal;
+                }
+
+                input {
+                    position: absolute;
+                    opacity: 0;
+                    height: 0;
+                    width: 0; 
+                }
+                
+                .checkmark {
+                    position: relative;
+                }
+                
+                .checkmark:after {
+                    content: "";
+                    position: absolute;
+                    display: none;
+                }
+
+                input:checked ~ .checkmark:after {
+                    display: block;
+                }
+
+                .checkmark:after {
+                    width: 6px;
+                    height: 13px;
+                    border: solid #3399ff;
+                    border-width: 0 2px 2px 0;
+                    transform: rotate(45deg);
+                }
+
+        form {
+            width: 31.25rem;
+            height: 43.125rem;
+            margin: 0 0 0 34rem;
+            position: absolute;
+            top: 17.563rem;
+            border-radius: 8px;
+            box-shadow: 0 8px 16px 0 rgba(13, 38, 53, 0.19);
+            border: solid 8px #fff;
+            background-color: #fff;
+            padding-top: 2.5rem;
+        }
+
+                .Naam-txt, .Contact-txt, .Adres-txt {
+                    height: 1.375rem;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 1.125rem;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                }
+          
+                .Naam-txt {
+                    width: 3.125rem;
+                    margin: 0 0 1rem 2.357rem;
+                    color: #003e5b;
+                }
+
+                .Contact-txt {
+                    width: 4.313rem;
+                    margin: 0 0 0 2.375rem;
+                    color: #004767;
+                }
+
+                .Adres-txt {
+                    width: 3rem;
+                    margin: 0 0 1rem 2.375rem;
+                    color: #005273;
+                }
+
+                    .Voornaam, .Achternaam, .Telefoonnummer, .Email, .Straatnaam, .Postcode, .Plaats {
+                        border-radius: 8px;
+                        border: solid 1px #b1cde9;
+                        background-color: rgba(229, 242, 255, 0.14);
+                    }
+
+                    .Voornaam, .Achternaam, .Telefoonnummer, .Email, .Straatnaam {
+                        width: 24.875rem;
+                        height: 3.313rem;
+                        margin: 1rem 4rem 1rem 2.375rem;
+                    }
+
+                    .wit-blokje {
+                        width: 4.6rem;
+                        height: 1.125rem;
+                        padding: 0.156rem 0.5rem 0.094rem;
+                        background-color: #fff;
+                        position: relative;
+                        left:2.75rem;
+                    }
+                    
+                    .Achternaam {
+                        margin: -.5rem 4rem 2rem 2.375rem;
+                        border: solid 1px #3399ff;
+                        background-color: #fff;
+                        background-color: #fff;
+                    }
+                    
+
+                    .Email {
+                        margin: 1rem 4rem 2rem 2.375rem;
+                    }
+                    
+                    .Postcode {
+                        width: 9.5rem;
+                        height: 3.313rem;
+                        margin: 1rem 0 0 2.375rem;
+                    }
+
+                    .Plaats {
+                        width: 14.313rem;
+                        height: 3.313rem;
+                        margin: -3.45rem 4rem 0 0;
+                        float:right;
+                    }
+                     
+                        p {
+                            margin:0.938rem 0 0.875rem 0.875rem;
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: 300;
+                            font-size: 0.75rem;
+                            font-weight: 300;
+                            font-stretch: normal;
+                            font-style: normal;
+                            letter-spacing: normal;
+                            color: #6b9bc4;
+                        }
+
+                        .Voornaam p {
+                            width: 22.875rem;
+                            height: 1.5rem;
+                            line-height: 2;
+                            margin: 0.938rem 0 0.875rem 0.875rem;
+                        }
+
+                        .Achternaam p {
+                            width: 23rem;
+                            height: 1.188rem;
+                            font-size: 1rem;
+                            line-height: normal;
+                            color: #58727e;
+                        }
+
+                        .Achternaam-blauw {
+                            width: 4.188rem;
+                            height: 0.875rem;
+                            line-height: normal;
+                            color:#3399ff;
+                            margin: 0 0 0 0;
+                        }
+
+                        .Telefoonnummer p {
+                            width: 22.875rem;
+                            height: 1.5rem;
+                            line-height: 2;
+                        }
+
+                        .E-mail p {
+                            width: 22.875rem;
+                            height: 1.5rem;
+                            line-height: 2;
+                        }
+
+                        .Straatnaam-huisnr p {
+                            width: 22.875rem;
+                            height: 1.5rem;
+                            line-height: 2;     
+                        }
+
+                        .Postcode p {
+                            width: 6.938rem;
+                            height: 1.5rem;
+                            font-weight: 300;
+                            line-height: 2;  
+                        }
+
+                        .Plaats p {
+                            width: 12.375rem;
+                            height: 1.5rem;
+                            font-weight: 300;
+                            line-height: 2;
+                        }
+
+               
+                            .Stuur-een-offerte {
+                                width: 8.5rem;
+                                height: 1.5rem;
+                                font-family: 'Montserrat', sans-serif;
+                                position: relative;
+                                top: -1.969rem;
+                                left: 18rem;
+                                right: 5rem;
+                                font-size: 1rem;
+                                font-weight: 300;
+                                font-stretch: normal;
+                                font-style: normal;
+                                line-height: 1.5;
+                                letter-spacing: normal;
+                                color: #58727e;
+                                text-decoration-line:underline;
+                                }
+
+                                .Betalen-via-iDEAL {
+                                    width: 12.7rem;
+                                    height: 1.5rem;
+                                    position: relative;
+                                    left:2rem;
+                                    bottom: 2rem;
+                                    color: #6b8996;
+                                }
+
+                .Button {
+                    position: absolute;
+                    top: 66.3rem;
+                    left: 13rem;
+                    width: 7.625rem;
+                    height: 2.75rem;
+                    background-color: #fff;
+                    color: #3399ff;
+                    border: solid 1px #3399ff;
+                    border-radius: 8px;
+                }
+
+                .Button2 {
+                    height: 2.75rem;
+                    border-radius: 8px;
+                    width: 14.313rem;
+                    background-color: #3399ff;
+                    color: #fff;
+                    border: none;
+                    position: relative;
+                    left: 2.375rem;
+                    top: 1rem;
+                }
+
+                        .Pijl1, .Pijl2 {
+                            width: 0.813rem;
+                            height: 0.875rem;
+                            font-family:'Montserrat', sans-serif;
+                            font-size: 1rem;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: normal;
+                            text-align: center;
+                            color: #0074e8;
+                        }
+
+                        .Pijl1 {
+                            margin: .875rem;
+                        }
+
+                        .Pijl2 {
+                           margin: 0 0 0 0;
+                           position:relative;
+                           left: 12.25rem;
+                           bottom: 1.75rem;
+                        }
+    
+                        .Direct-betalen {
+                            width: 8rem;
+                            color: #fff;
+                            position: relative;
+                            top: .65rem;
+                        }
+        
+
+                        .Vorige, .Direct-betalen {
+                            height: 1.75rem;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 1rem;
+                            font-weight: bold;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.56;
+                            letter-spacing: normal;
+                        }
+
+                        .Vorige {
+                            margin: -2rem 0 2rem 3.3rem;
+                            color: #3399ff;
+                        }
+                  
+                
