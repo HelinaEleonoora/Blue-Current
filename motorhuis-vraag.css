@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
 
 body {
+    align-content: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding:0;
+}
+
+.container {
     width:90rem;
     height: 53.563;
     background-color: #ffffff;
     border: rgb(170, 168, 170) 1px solid;
     align-self: center;
-  }
+}
 
     header {
         height: 9.5rem;
